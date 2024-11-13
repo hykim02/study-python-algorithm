@@ -1,17 +1,18 @@
 # 3-1
 # 나의 답안
 # 거스름돈 입력받기
-# n = int(input("거스름돈:"))
-# count = 0
-# coins = [500, 100, 50, 10]
+n = int(input("거스름돈:"))
+count = 0
+coins = [500, 100, 50, 10]
 
-# for coin in coins:
-#     count += n // coin
-#     rest = n % coin
-#     n = rest 
+for coin in coins:
+    count += n // coin
+    rest = n % coin
+    n = rest 
 
-# print(count)
+print(count)
 
+# --------------------------------------------------------------------
 # 예제 답안
 n = int(input("거스름돈:"))
 count = 0
