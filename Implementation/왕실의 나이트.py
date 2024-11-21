@@ -8,11 +8,11 @@ x = night_now[0] # 알파벳 좌표
 y = int(night_now[1]) # 숫자 좌표
 
 # 이동 가능한 좌표 정의
-move_list = [(2,1), (2,-1), (-2,1), (-2,-1), (1,2), (-1,2), (1,-2), (-1,-2)]
+move_type = [(2,1), (2,-1), (-2,1), (-2,-1), (1,2), (-1,2), (1,-2), (-1,-2)]
 
 count = 0
 # 좌표 이동 수행
-for move in move_list:
+for move in move_type:
     nx = ord(x) + move[0]
     ny = y + move[1]
     
