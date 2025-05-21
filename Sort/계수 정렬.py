@@ -9,3 +9,4 @@ for i in range(len(array)):
 for i in range(len(count)):
     for j in range(count[i]):
         print(i, end=' ') # 띄어쓰기 구분으로 등장한 횟수만큼 인덱스 출력
+
