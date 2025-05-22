@@ -1,4 +1,3 @@
-import MemoryUsage*
 
 N = int(input())
 
@@ -12,9 +11,7 @@ for i in range(N):
 # for i in ls_sorted:
 #     print(i, end=" ")
 
-
-ls.sort()
-ls.reverse()
+ls.sort(reverse=True)
 
 for i in ls:
     print(i, end=" ")
