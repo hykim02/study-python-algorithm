@@ -6,9 +6,7 @@ def dfs(graph, v, visited):
 
     # 현재 노드와 연결된 다른 노드를 재귀적으로 방문
     for i in graph[v]:
-        print(visited[i])
         if not visited[i]:
-            print("실행")
             dfs(graph, i, visited)
 
 # 각 노드가 연결된 정보를 리스트 자료형으로 표현
@@ -29,3 +27,4 @@ visited = [False] * 9
 
 # 정의된 DFS 함수 호출
 dfs(graph, 1, visited)
+
